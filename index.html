@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Booki</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="Css/style.css">
+
+
+   </head> 
+    <body>  
+        <!--debut de la section nav-->
+        <nav class="navigation">
+            
+            <div class="navigationLogoLien">
+
+                <div class="responsiveTitre">
+                    <img margin="navigationLogo" class="navigationLogo"
+                    src="images/logo/Booki.png"
+                     alt="logo de booki" 
+                    width="100px">
+                </div>
+
+                     <!--la div qui englobe les deux liens hebergement et activites-->
+                 <div class="navigationLienH">
+                    <div class="navigationLienHebergement">
+                      <a class="lienA deco" href="#Hebergements" title="Hebergement" >
+                        Hebergements</a>
+                    </div>
+                      
+                    <div class="navigationLienHebergement">
+                      <a class="lienB deco" href="#Activites" title="Activites" >
+                         Activites </a>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+        <!--fin de la section nav-->
+
+        <!--debut de la section header-->
+        <header>
+            <section class="presentation" >
+
+                <div class="presentationTitre responsiveTitre">
+                    <h1><strong class="fold">Trouvez votre hebergement pour des vacances de reves</strong></h1>
+                    <p>En plein centre-ville ou en pleine nature.</p>
+                </div>
+                        <!--css de flexcentre au niveau de generale-->
+                <div class="barreDeRecherche">
+                    <div class="barreDeRechercheIcons">
+                        <i class="fa-solid fa-location-dot" title="localisation"></i>
+                    </div>
+                    <div class="barreDeRechercheTexte">
+                        <input class="barreDeRechercheTexte" type="search" placeholder="Marseille,France" title="rechercher">
+                    </div> 
+                    <div class="boutonRecherche" title="recherche">
+                        <span class="rechercheMobile">Rechercher </span>
+                        <span class="iconsMobile"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    </div>
+                </div>
+                
+                <div class=" tousFiltres responsiveFiltre">
+
+                    <div class="filtre">
+                        <h3 class="">Filtre</h3>
+                    </div>
+                    <!--rajout de deux div flex aroud pour separer en mobile-->
+                    <!--div1-->
+                    <div class="filtreLien12">
+
+                        <div class="filtreLien1">
+
+
+
+                            <div class="filtreLienEconomique responsiveTexteIcons">
+                                <i class="fa-solid fa-money-bill-wave IconsFiltre"></i>
+                                <div class="economique" title="Economique"><strong>Economique</strong></div>
+                            </div>
+                            <div class="filtreLienFamilial responsiveTexteIcons">
+                                <i class="fa-solid fa-person IconsFiltre"></i>
+                                <div class="familial" title="Familial"><strong>Familial</strong></div>
+                            </div>
+                        </div>
+    
+                         <!--div2-->
+                        <div class=" filtreLien2 responsiveFiltre ">
+    
+    
+                            <div class="filtreLienRomantique responsiveTexteIcons">
+                                <i class="fa-solid fa-heart IconsFiltre"></i>
+                                <div class="romantique" title="Romantique"><strong>Romantique</strong></div>
+                            </div>
+                            <div class="filtreLienPepites responsiveTexteIcons">
+                                <i class="fa-solid fa-fire IconsFiltre"></i>
+                                <div class="pepites" title="Nos pepites"><strong>Nos pepites</strong></div>
+                            </div>
+    
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="info">
+                    <div class="Icercle"><i class="fa-solid fa-info fa-sm "></i></div>                
+                    <p>
+                        de 500 logements sont disponibles dans cette ville
+                   </p>
+
+                </div>
+
+            </section>
+
+        </header>
+        <!--fin de la section header-->
+
+
+
+
+        <!--Debut de la section herbergement et populaire-->
+
+
+        <section id="Hebergements" class="Hebergements">
+
+            <!--la section Hebergements-->
+
+            <div class="blocHebergements">
+                <h2>Hebergement a Marseille</h2>
+
+                <div class="blocHebergementsPremier">
+
+                    <div class="carreHebergements">
+                        <div class="imgHebergements1"></div>
+                        <div class="carreDetailHebergements">
+                            <h3>Hotel du port</h3>
+                            <P>Nuit a partir de 25€</P>
+                            <div class="etoiles">
+                                <i class="fa-xs fa-solid  fa-star colorBleu" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu " aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu " aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorGris" aria-hidden="true"></i>
+                              
+                            </div> 
+                            
+                        </div>
+                    </div>
+
+                    <div class="carreHebergements">
+                        <div class="imgHebergements2"></div>
+                        <div class="carreDetailHebergements">
+                            <h3>Hotel du port</h3>
+                            <P>Nuit a partir de 25€</P>
+                            <div class="etoiles">
+                                <i class="fa-xs fa-solid  fa-star colorBleu" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu " aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu " aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorGris" aria-hidden="true"></i>
+                              
+                            </div> 
+                            
+                        </div>
+                    </div>
+
+                    <div class="carreHebergements">
+                        <div class="imgHebergements3"></div>
+                        <div class="carreDetailHebergements">
+                            <h3>Hotel du port</h3>
+                            <P>Nuit a partir de 25€</P>
+                            <div class="etoiles">
+                                <i class="fa-xs fa-solid  fa-star colorBleu" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu " aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu " aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorGris" aria-hidden="true"></i>
+                              
+                            </div> 
+                            
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="blocHebergementsDeuxieme">
+
+                    <div class="carreHebergements">
+                        <div class="imgHebergements4"></div>
+                        <div class="carreDetailHebergements">
+                            <h3>Hotel de la mer</h3>
+                            <P>Nuit a partir de 25€</P>
+                            <div class="etoiles">
+                                <i class="fa-xs fa-solid fa-star colorBleu" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu " aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu " aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorGris" aria-hidden="true"></i>
+                              
+                            </div>  
+                        </div>
+                    </div>
+
+                    <div class="carreHebergements">
+                        <div class="imgHebergements5"></div>
+                        <div class="carreDetailHebergements">
+                            <h3>Hotel de la mer</h3>
+                            <P>Nuit a partir de 25€</P>
+                            <div class="etoiles">
+                                <i class="fa-xs fa-solid fa-star colorBleu" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu " aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu " aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorGris" aria-hidden="true"></i>
+                              
+                            </div>  
+                        </div>
+                    </div>
+
+                    <div class="carreHebergements">
+                        <div class="imgHebergements6"></div>
+                        <div class="carreDetailHebergements">
+                            <h3>Hotel de la mer</h3>
+                            <P>Nuit a partir de 25€</P>
+                            <div class="etoiles">
+                                <i class="fa-xs fa-solid fa-star colorBleu" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu " aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu " aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorGris" aria-hidden="true"></i>
+                              
+                            </div>  
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                  <!--p  class="tabletteSizeTitrePop"-->
+                <p  class=""><strong>Afficher plus</strong></p>
+
+            </div>
+
+
+
+            <!--la section  populaire-->
+
+            <div class="blocPopulaires">
+                <div class="blocPopulairesIGraphe">
+                    <h2 class=""><strong>Les plus populaires</strong></h2>
+                    <div class="IGraphe"><i class="fas fa-chart-line fa-2x"></i></div>
+                </div>
+
+                <div class="blocPopulairesUnique">
+
+                    <div class="carrePopulaires">
+                        <div class="imgPopulaires1"></div>
+                        <div class="carreDetailPopulaires">
+                            <h3>Hotel le soleil du matin</h3>
+                            <P>Nuit a partir de 25€</P>
+                            <div class="etoiles">
+                                <i class="fa-xs fa-solid fa-star colorBleu" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu " aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu " aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorGris" aria-hidden="true"></i>
+                              
+                            </div> 
+                        </div>
+                    </div>
+
+                    <div class="carrePopulaires">
+                        <div class="imgPopulaires2"></div>
+                        <div class="carreDetailPopulaires">
+                            <h3>Hotel le soleil du matin</h3>
+                            <P>Nuit a partir de 25€</P>
+                            <div class="etoiles">
+                                <i class="fa-xs fa-solid fa-star colorBleu" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu " aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu " aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorGris" aria-hidden="true"></i>
+                              
+                            </div> 
+                        </div>
+                    </div>
+
+                    
+                    <div class="carrePopulaires">
+                        <div class="imgPopulaires3"></div>
+                        <div class="carreDetailPopulaires">
+                            <h3>Hotel le soleil du matin</h3>
+                            <P>Nuit a partir de 25€</P>
+                            <div class="etoiles">
+                                <i class="fa-xs fa-solid fa-star colorBleu" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu " aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu " aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorBleu" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star colorGris" aria-hidden="true"></i>
+                              
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+         </section>
+        <!--fin  de la section herbergement et populaire-->
+
+
+        <!--Debut de la section activites a marseille-->
+
+        <section class="Activites" id="Activites">
+            <h2 class="responsiveTitre">Activites a Marseilles</h2>
+            <div class="blocActivites">
+
+
+                <div class="carreActivites">
+                    <div class="imgActivites1" alt="jolie port" title="
+                    Vieux-port"></div>
+                    <div class="carreDetailActivites">
+                        <h3>Vieux-port</h3>
+                    </div>
+                </div>
+
+                <div class="carreActivites">
+                    <div class="imgActivites2" alt="jolie port" title="
+                    Vieux-port"></div>
+                    <div class="carreDetailActivites">
+                        <h3>Vieux-port</h3>
+                    </div>
+                </div>
+
+                <div class="carreActivites">
+                    <div class="imgActivites3" alt="jolie port" title="
+                    Vieux-port"></div>
+                    <div class="carreDetailActivites">
+                        <h3>Vieux-port</h3>
+                    </div>
+                </div>
+
+                <div class="carreActivites">
+                    <div class="imgActivites4" alt="jolie port" title="
+                    Vieux-port"></div>
+                    <div class="carreDetailActivites">
+                        <h3>Vieux-port</h3>
+                    </div>
+                </div>
+
+                
+                
+            </div>
+
+        </section>
+
+
+        <!--fin  de la section activites a marseille-->
+            
+         <!--DEBUT de la section footer-->
+
+         <footer>
+            <div class="piedPages">
+
+                <div class="piedPagesAPropos">
+                    <h3>A propos</h3>
+                    <div class="divlienPiedPages">
+                        <a class="lienPiedPages" href="#">Fonctionnement du site</a>
+                    </div>
+                    <div class="divlienPiedPages">
+                         <a class="lienPiedPages" href="#">Conditions generales de vente</a>
+                    </div>
+                    <div class="divlienPiedPages">
+                        <a class="lienPiedPages" href="#">Donnees et confidentialite</a>
+                    </div>
+                            
+                </div>
+
+                <div class="piedPagesNosHebergements">
+                    <h3>Nos hebergements</h3>
+                    <div class="divlienPiedPages">
+                        <a class="lienPiedPages" href="#">Charte qualite</a>
+                    </div>
+                    <div class="divlienPiedPages">
+                        <a class="lienPiedPages" href="#">Proposer votre Hotel</a>
+                    </div>
+                          
+                </div>
+
+                <div class="piedPagesAssistance">
+                    <h3>Assistance</h3>
+                    <div class="divlienPiedPages"> 
+                        <a class="lienPiedPages" href="#">Centre d'aide</a>
+                    </div>
+                    <div class="divlienPiedPages">
+                         <a class="lienPiedPages" href="#">Nous contacter</a>
+                    </div>  
+                   
+                </div>
+
+            </div>
+        </footer>
+
+            
+        <!--FIN de la section footer-->        
+
+
+
+
+
+    
+           
+    </body>
+    <script src="https://kit.fontawesome.com/7c5763a8d2.js" crossorigin="anonymous"></script>
+</html>
+
